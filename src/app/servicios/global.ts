@@ -1,0 +1,1 @@
+export const apiURL: string = 'http://10.40.51.7:3000/api';
