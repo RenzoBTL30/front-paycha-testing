@@ -27,9 +27,6 @@ export class AgregarCategoriaComponent implements OnInit {
   }
 
   agregarCategoria() {
-    if (this.categoria.nombre = '') {
-      
-    }
     this.catService.agregarCategoria(this.categoria).subscribe((data) => {
       this.close_modal.nativeElement.click();
       this.volveraListarCategorias.emit();
